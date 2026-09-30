@@ -2,8 +2,6 @@
 node_modules/
 
 # Environment variables
-.env
-.env.*
 !.env.example
 
 # Logs
@@ -31,7 +29,6 @@ coverage/
 .nest-cli.json
 
 # IDE/editor settings
-.vscode/
 .idea/
 
 # Submission artifacts
@@ -43,3 +40,4 @@ coverage/
 # Upload storage root (quarantine / clean / infected)
 var/
 uploads/
+config.bat
